@@ -45,3 +45,17 @@ body {
   padding-top: 15px;
   padding-left: 15px;
 }
+
+.f1 {
+  font-size: small;
+  color: rgb(122, 126, 126);
+}
+
+.f2 {
+  font-size: large;
+}
+
+.map {
+  height: 300px;
+  width: 1000px;
+}
