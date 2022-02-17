@@ -18,7 +18,7 @@
         type="submit"
       ></button>
     </form>
-    <allfield />
+    <LocationInfo />
   </div>
 </template>
 
