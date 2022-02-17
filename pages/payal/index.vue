@@ -18,7 +18,11 @@
         type="submit"
       ></button>
     </form>
-    <LocationInfo :addresses="addresses" :ip="ip" />
+    <LocationInfo
+      :addresses="addresses"
+      :ip="ip"
+      :current_time="current_time"
+    />
   </div>
 </template>
 

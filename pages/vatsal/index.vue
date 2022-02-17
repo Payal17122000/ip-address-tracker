@@ -24,19 +24,15 @@
       />
       <ip-info :title="'isc'" :value="domaindata.isp" />
     </div>
-    <div class="map">
-      <the-map :lat_lng="lat_lng" />
-    </div>
   </div>
 </template>
 
 <script>
 import IpInfo from "~/components/IpInfo.vue";
-import TheMap from "~/components/TheMap.vue";
 import TheSearchBar from "~/components/TheSearchBar.vue";
 import TopHeader from "~/components/TopHeader.vue";
 export default {
-  components: { TopHeader, IpInfo, TheMap, TheSearchBar },
+  components: { TopHeader, IpInfo, TheSearchBar },
   data() {
     return {
       domain: "",
