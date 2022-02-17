@@ -15,7 +15,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ["~/assets/styleOfProject.css"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -29,12 +29,15 @@ export default {
     "@nuxtjs/eslint-module",
     // https://go.nuxtjs.dev/stylelint
     "@nuxtjs/stylelint-module",
+    "nuxt-leaflet",
   ],
 
   eslint: {
     /* module options */
+
     extensions: ["js", "vue"],
     exclude: ["node_modules"],
+
     fix: true,
   },
 
