@@ -17,7 +17,7 @@
           >
           <b-col
             ><div class="f1">TIMEZONE</div>
-            <br /><b class="f2">{{ current_time }}</b></b-col
+            <br /><b class="f2">UTC -08:00</b></b-col
           >
           <b-col
             ><div class="f1">ISP</div>
