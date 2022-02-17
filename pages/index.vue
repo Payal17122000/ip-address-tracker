@@ -1,13 +1,7 @@
 <template>
-  <div>
-    <h1>hello</h1>
-  </div>
+  <div></div>
 </template>
 
 <script>
-export default {
-  created() {
-    // this.$router.push("/payal")
-  },
-}
+export default {};
 </script>
