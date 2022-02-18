@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
 body {
   background-color: white;
+  font-family: Rubik, sans-serif;
 }
 
 .d {
@@ -8,6 +10,7 @@ body {
   height: 300px;
   margin-top: 100px;
   margin-left: 100px;
+  background-size: cover;
 }
 
 .title {
@@ -44,7 +47,7 @@ body {
   z-index: 1;
 }
 
-.col {
+.column-s {
   padding-top: 15px;
   padding-left: 15px;
   z-index: 1;
@@ -65,4 +68,18 @@ body {
   position: relative;
   z-index: 0;
   bottom: 300px;
+}
+.f1 {
+  font-size: small;
+  color: rgb(122, 126, 126);
+}
+
+.f2 {
+  font-size: large;
+}
+
+@media (max-width: 991px) {
+  .map {
+    bottom: 400px;
+  }
 }

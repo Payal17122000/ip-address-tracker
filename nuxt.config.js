@@ -42,7 +42,6 @@ export default {
 
     extensions: ["js", "vue"],
     exclude: ["node_modules"],
-
     fix: true,
   },
 

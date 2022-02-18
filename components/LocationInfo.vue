@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div class="second">
-      <b-container class="bv-example-row">
-        <b-row class="col">
+      <b-container class="bv-example-row" fluid="lg">
+        <b-row class="column-s">
           <b-col
             ><div class="f1">IP ADDRESS</div>
             <br /><b class="f2">{{ ip }}</b></b-col
