@@ -17,7 +17,7 @@
           >
           <b-col
             ><div class="f1">TIMEZONE</div>
-            <br /><b class="f2">{{ addresses.time_zone }}</b></b-col
+            <br /><b class="f2">{{ current_time }}</b></b-col
           >
           <b-col
             ><div class="f1">ISP</div>
@@ -31,6 +31,6 @@
 
 <script>
 export default {
-  props: ['addresses', 'ip'],
-}
+  props: ["addresses", "ip", "current_time"],
+};
 </script>

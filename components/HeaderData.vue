@@ -26,25 +26,25 @@ export default {
   data() {
     return {
       addresses: [],
-      ip: '',
-      apikey: 'ef3eeb9d020b49d19609313bc88ddb39',
+      ip: "",
+      apikey: "ef3eeb9d020b49d19609313bc88ddb39",
       lat_lng: [62.22875562830978, 99.40894012301204],
-    }
+    };
   },
   methods: {
     async onclick() {
       // console.log(this.ip)
       //  console.log(this.apikey)
       const res = await this.$axios.$get(
-        'https://api.ipgeolocation.io/ipgeo?apiKey=' +
+        "https://api.ipgeolocation.io/ipgeo?apiKey=" +
           this.apikey +
-          '&ip=' +
+          "&ip=" +
           this.ip
-      )
-      this.addresses = res
+      );
+      this.addresses = res;
       //  console.log(this.addresses)
-      this.$router.push('/payal')
+      this.$router.push("/payal");
     },
   },
-}
+};
 </script>
