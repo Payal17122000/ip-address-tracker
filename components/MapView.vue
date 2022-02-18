@@ -3,7 +3,7 @@
     <no-ssr>
       <div
         id="map-wrap"
-        style="height: 55vh; width: 104vh; margin-top: 200px"
+        style="height: 55vh; width: 114vh; margin-top: 200px"
         class="z-0"
       >
         <l-map :zoom="1" :center="lat_lng">

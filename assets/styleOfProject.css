@@ -8,6 +8,7 @@ body {
   background-image: url("~/static/pattern-bg.png");
   background-size: cover;
   height: 300px;
+  width: 100%;
   margin-top: 100px;
   margin-left: 100px;
   background-size: cover;
@@ -33,7 +34,7 @@ body {
 }
 
 .form {
-  margin-left: 300px;
+  margin-left: 400px;
 }
 
 .second {
@@ -76,6 +77,10 @@ body {
 
 .f2 {
   font-size: large;
+}
+
+.l1 {
+  border-right: 1px solid black;
 }
 
 @media (max-width: 991px) {

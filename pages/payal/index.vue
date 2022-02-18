@@ -52,7 +52,6 @@ export default {
       this.addresses = res;
       this.lat_lng = [this.addresses.latitude, this.addresses.longitude];
       this.current_time = this.addresses.time_zone.current_time;
-      this.$router.push("/payal");
     },
   },
 };

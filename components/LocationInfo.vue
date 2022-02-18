@@ -5,19 +5,27 @@
         <b-row class="column-s">
           <b-col
             ><div class="f1">IP ADDRESS</div>
-            <br /><b class="f2">{{ ip }}</b></b-col
+            <br />
+
+            <br /><b class="f2"
+              ><div class="l1">{{ ip }}</div></b
+            ></b-col
           >
           <b-col
             ><div class="f1">LOCATION</div>
             <br /><b class="f2"
-              >{{ addresses.city }}, {{ addresses.country_code2 }}<br />{{
-                addresses.zipcode
-              }}</b
+              ><div class="l1">
+                {{ addresses.city }}, {{ addresses.country_code2 }}<br />{{
+                  addresses.zipcode
+                }}
+              </div></b
             ></b-col
           >
           <b-col
             ><div class="f1">TIMEZONE</div>
-            <br /><b class="f2">{{ current_time }}</b></b-col
+            <br /><b class="f2"
+              ><div class="l1">{{ current_time }}</div></b
+            ></b-col
           >
           <b-col
             ><div class="f1">ISP</div>
